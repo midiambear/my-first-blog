@@ -64,7 +64,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'mysite.context_processors.google_analytics',
+#                'mysite.context_processors.google_analytics',
             ],
         },
     },
@@ -127,4 +127,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-GOOGLE_ANALYTICS_TRACKING_ID = 'G-Q6K4HQFE9J'
+# GOOGLE_ANALYTICS_TRACKING_ID = 'G-Q6K4HQFE9J'
+GOOGLE_TAG_MANAGER_ID='GTM-WK9VPMV'
